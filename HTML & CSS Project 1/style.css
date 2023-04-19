@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("assets/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Red Rose";
+}
+
+nav img {
+  height: 40px;
+  width: 100px;
+  margin: 20px;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  font-weight: 500;
+  color: rgb(255, 194, 51);
+  font-size: large;
+}
+
+.list :hover {
+  color: rgb(255, 81, 95);
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.button-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  background-color: rgb(255, 81, 95);
+  border-color: rgb(255, 81, 95);
+  cursor: pointer;
+  margin: 20px;
+  font-weight: 500;
+  font-size: large;
+}
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 60px;
+  font-weight: 900;
+  color: rgb(255, 194, 51);
+  margin-top: 120px;
+  font-family: "Dela Gothic One";
+}
+
+.button-down button {
+  margin-top: 30px;
+  padding: 5px 10px 5px 10px;
+  color: white;
+  background-color: rgb(255, 81, 95);
+  border-color: rgb(255, 81, 95);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: large;
+}
+
+.scroll img {
+  height: 70px;
+  width: 70px;
+
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+}
