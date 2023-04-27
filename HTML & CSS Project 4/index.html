@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query Project HTML CSS | 9th Feb 2023</title>
+    <style>
+        body{
+            background-color: rgb(127, 255, 213);
+        }
+         @media screen and (min-width:1440px) {
+            body{
+                background-color: green;
+            }
+            .laptop{
+                display: none;
+            }
+            .tablet{
+                display: none;
+            }
+            .mobile{
+                display: none;
+            }            
+        }
+        @media (min-width:1024px) and (max-width:1439px) {
+            body{
+                background-color: rgb(177, 136, 47);
+            }
+            .large-laptop{
+                display: none;
+            }
+            .tablet{
+                display: none;
+            }
+            .mobile{
+                display: none;
+            }            
+        }
+        @media (min-width:768px) and (max-width:1023px){
+            body{
+                background-color: rgb(117, 251, 253);
+            }
+            .large-laptop{
+                display: none;
+            }
+            .laptop{
+                display: none;
+            }
+            .mobile{
+                display: none;
+            }            
+        }
+        @media (min-width:425px) and (max-width:767px){
+            body{
+                background-color: red;
+            }
+            .large-laptop{
+                display: none;
+            }
+            .laptop{
+                display: none;
+            }
+            .tablet{
+                display: none;
+            }          
+        }
+    </style>
+</head>
+<body>
+    <h1>Demo For Media Query</h1>
+    <p class="large-laptop">Screen size: 1440px</p>
+    <p class="laptop">Screen size: 1024px</p>
+    <p class="tablet">Screen size: 768px</p>
+    <p class="mobile">Screen size: 425px</p>
+</body>
+</html>
