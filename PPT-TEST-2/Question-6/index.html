@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Modal Window</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="openModal">Open Modal</button>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span id="closeModal" class="close">&times;</span>
+      <h2>Modal Window</h2>
+      <p>This is a custom modal window.</p>
+      <p>No scrolling allowed.</p>
+      <p>Click on X to close or click anywhere outside the window to Close.</p>
+    </div>
+  </div>
+
+  <div id="overlay" class="overlay"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
